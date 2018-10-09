@@ -20,3 +20,14 @@ D:\git\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.AssemblyInfoInputs
 D:\git\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.AssemblyInfo.cs
 D:\git\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.dll
 D:\git\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.pdb
+P:\Git\howieoak\howieoak\RmqTutorial\Send\bin\Debug\netcoreapp2.1\Send.deps.json
+P:\Git\howieoak\howieoak\RmqTutorial\Send\bin\Debug\netcoreapp2.1\Send.runtimeconfig.json
+P:\Git\howieoak\howieoak\RmqTutorial\Send\bin\Debug\netcoreapp2.1\Send.runtimeconfig.dev.json
+P:\Git\howieoak\howieoak\RmqTutorial\Send\bin\Debug\netcoreapp2.1\Send.dll
+P:\Git\howieoak\howieoak\RmqTutorial\Send\bin\Debug\netcoreapp2.1\Send.pdb
+P:\Git\howieoak\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.csprojAssemblyReference.cache
+P:\Git\howieoak\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.csproj.CoreCompileInputs.cache
+P:\Git\howieoak\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.AssemblyInfoInputs.cache
+P:\Git\howieoak\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.AssemblyInfo.cs
+P:\Git\howieoak\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.dll
+P:\Git\howieoak\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.pdb

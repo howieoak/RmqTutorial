@@ -29,15 +29,15 @@ namespace RmqTutorial
             int port = 5671;
             string virtualhost = "/masterdata-qa";
             string queue = "K112928.masterdata-qa.ajourhold.NSB";
-            string cacertfile = @"D:\Projects\NSB\RabbitMq\RmqTutorial\cacert.pem";
+            //string cacertfile = @"P:\Git\howieoak\howieoak\RmqTutorial\cacert.pem";
+            string cacertfile = @"P:\Git\howieoak\howieoak\RmqTutorial\infotorg.cer";
 
             try
             {
                 SslOption ssl = new SslOption() {
                     Enabled = true,
-                    
-                    //ServerName = hostname,
-                    //CertPassphrase = password,
+                    ServerName = hostname,
+                    CertPassphrase = password,
                     CertPath = cacertfile
                 };
 
@@ -58,7 +58,7 @@ namespace RmqTutorial
                 using (var connection = factory.CreateConnection())
                 using (var channel = connection.CreateModel())
                 {
-                    channel.QueueDeclare(queue: queue, durable: false, exclusive: false, autoDelete: false, arguments: null);
+                    channel.QueueDeclare(queue, true, false, false, null);
 
                     string message = "Hello World!";
                     var body = Encoding.UTF8.GetBytes(message);

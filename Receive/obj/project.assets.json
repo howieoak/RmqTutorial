@@ -4181,23 +4181,23 @@
     ]
   },
   "packageFolders": {
-    "d:\\Profiles\\heek\\.nuget\\packages\\": {},
+    "C:\\Users\\heek\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\git\\howieoak\\RmqTutorial\\Receive\\Receive.csproj",
+      "projectUniqueName": "P:\\Git\\howieoak\\howieoak\\RmqTutorial\\Receive\\Receive.csproj",
       "projectName": "Receive",
-      "projectPath": "D:\\git\\howieoak\\RmqTutorial\\Receive\\Receive.csproj",
-      "packagesPath": "d:\\Profiles\\heek\\.nuget\\packages\\",
-      "outputPath": "D:\\git\\howieoak\\RmqTutorial\\Receive\\obj\\",
+      "projectPath": "P:\\Git\\howieoak\\howieoak\\RmqTutorial\\Receive\\Receive.csproj",
+      "packagesPath": "C:\\Users\\heek\\.nuget\\packages\\",
+      "outputPath": "P:\\Git\\howieoak\\howieoak\\RmqTutorial\\Receive\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "d:\\Profiles\\heek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\heek\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
