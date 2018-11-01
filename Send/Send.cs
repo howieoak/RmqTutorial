@@ -2,6 +2,8 @@
 using RabbitMQ.Client;
 using System.Text;
 using RabbitMQ.Client.Exceptions;
+using RmqModel;
+using Newtonsoft.Json;
 
 namespace RmqTutorial
 {
@@ -28,9 +30,22 @@ namespace RmqTutorial
             string password = "MDPW112928";
             int port = 5671;
             string virtualhost = "/masterdata-qa";
-            string queue = "K112928.masterdata-qa.ajourhold.NSB";
+            string queue = "K112928.masterdata-qa.vask.NSB";
             //string cacertfile = @"P:\Git\howieoak\howieoak\RmqTutorial\cacert.pem";
-            string cacertfile = @"P:\Git\howieoak\howieoak\RmqTutorial\infotorg.cer";
+            string cacertfile = @"D:\git\howieoak\RmqTutorial\infotorg.cer";
+
+            InnmeldingMessage mes = new InnmeldingMessage
+            {
+                OppdragsId = "MDNSB01",
+                KundeId = Guid.NewGuid().ToString(),
+                FodeselsDato = "19751010",
+                EtterNavn = "KLAVEN",
+                ForNavn = "KARI",
+                MellomNavn = "PSA",
+                Adresse = "BOKS 6300, ETTERSTAD",
+                PostNummer = "0603",
+                PostSted = "ETTERSTAD"
+            };
 
             try
             {
@@ -54,16 +69,19 @@ namespace RmqTutorial
 
                 };
 
+           
+
                 Console.WriteLine("Connecting...");
                 using (var connection = factory.CreateConnection())
                 using (var channel = connection.CreateModel())
                 {
-                    channel.QueueDeclare(queue, true, false, false, null);
+                    //channel.QueueDeclare(queue, true, false, false, null);
+                    channel.QueueDeclare(queue: queue, durable: true, exclusive: false, autoDelete: false, arguments: null);
 
-                    string message = "Hello World!";
+                    string message = JsonConvert.SerializeObject(mes);
                     var body = Encoding.UTF8.GetBytes(message);
 
-                    channel.BasicPublish(exchange: "", routingKey: "hello", basicProperties: null, body: body);
+                    channel.BasicPublish(exchange: "", routingKey: "NSB Innmelding", basicProperties: null, body: body);
                     Console.WriteLine(" [x] Sent {0}", message);
                 }
 

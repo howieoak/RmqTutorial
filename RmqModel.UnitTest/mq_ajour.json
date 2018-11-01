@@ -1,0 +1,53 @@
+{
+                "kundeid": "3698", 
+                "oppdragsid": "MDNSB01", 
+                "kildeid": "16127501223", 
+                "kildedata" : {
+                               "DSF" : [{
+                                               "MDPERS":{
+                                                               "husnr": null, 
+                                                               "kjonn": "K", 
+                                                               "gatenr": null, 
+                                                               "postnr": "0603", 
+                                                               "adresse": "Boks 6300, Etterstad", 
+                                                               "bokstav": null, 
+                                                               "bolignr": null, 
+                                                               "bruksnr": "0020", 
+                                                               "festenr": null, 
+                                                               "fornavn": "Dolly Web", 
+                                                               "gaardsnr": "00020", 
+                                                               "objectid": "9941869", 
+                                                               "poststed": "Oslo", 
+                                                               "dato_doed": null, 
+                                                               "kommunenr": "0020", 
+                                                               "dnr_status": null, 
+                                                               "mellomnavn": null, 
+                                                               "slektsnavn": "Duck", 
+                                                               "statuskode": "1", 
+                                                               "adressetype": "M", 
+                                                               "foedselsaar": "1975", 
+                                                               "fra_kommune": null, 
+                                                               "kommunenavn": "Refkom3", 
+                                                               "regdato_adr": "20090707", 
+                                                               "postadresse1": null, 
+                                                               "postadresse2": null, 
+                                                               "postadresse3": null, 
+                                                               "spes_reg_type": "0", 
+                                                               "flyttedato_adr": "20090707", 
+                                                               "sist_oppdatert": "20110705", 
+                                                               "tilleggsadresse": null, 
+                                                               "fra_komm_regdato": null, 
+                                                               "fra_kommune_navn": null, 
+                                                               "postadr_landnavn": null, 
+                                                               "slektsnavn_ugift": null, 
+                                                               "dnr_hjemlandsadresse1": null, 
+                                                               "dnr_hjemlandsadresse2": null, 
+                                                               "dnr_hjemlandsadresse3": null, 
+                                                               "hjemlandsadr_landnavn": null, 
+                                                               "utvandret_til_landkode": null, 
+                                                               "innvandret_fra_landkode": null
+                                               }
+                               }]
+                }, 
+                "systemdata" : null
+}

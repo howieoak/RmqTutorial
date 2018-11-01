@@ -2,6 +2,7 @@
 using RabbitMQ.Client.Events;
 using RabbitMQ.Client.Exceptions;
 using System;
+using System.Diagnostics;
 using System.Text;
 
 namespace Receive
@@ -17,7 +18,7 @@ namespace Receive
             string virtualhost = "/masterdata-qa";
             string queue = "K112928.masterdata-qa.ajourhold.NSB";
             //string cacertfile = @"P:\Git\howieoak\howieoak\RmqTutorial\cacert.pem";
-            string cacertfile = @"P:\Git\howieoak\howieoak\RmqTutorial\infotorg.cer";
+            string cacertfile = @"D:\git\howieoak\RmqTutorial\infotorg.cer";
 
             try
             {
@@ -53,6 +54,7 @@ namespace Receive
                     {
                         var body = ea.Body;
                         var message = Encoding.UTF8.GetString(body);
+                        Debug.WriteLine(message);
                         Console.WriteLine(" [x] Received {0}", message);
                     };
                     channel.BasicConsume(queue: queue, autoAck: true, consumer: consumer);

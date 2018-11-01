@@ -1,0 +1,17 @@
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\bin\Debug\netcoreapp2.1\RmqModel.UnitTest.deps.json
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\bin\Debug\netcoreapp2.1\RmqModel.UnitTest.runtimeconfig.json
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\bin\Debug\netcoreapp2.1\RmqModel.UnitTest.runtimeconfig.dev.json
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\bin\Debug\netcoreapp2.1\RmqModel.UnitTest.dll
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\obj\Debug\netcoreapp2.1\RmqModel.UnitTest.csprojAssemblyReference.cache
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\obj\Debug\netcoreapp2.1\RmqModel.UnitTest.csproj.CoreCompileInputs.cache
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\obj\Debug\netcoreapp2.1\RmqModel.UnitTest.AssemblyInfoInputs.cache
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\obj\Debug\netcoreapp2.1\RmqModel.UnitTest.AssemblyInfo.cs
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\bin\Debug\netcoreapp2.1\RmqModel.UnitTest.pdb
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\bin\Debug\netcoreapp2.1\RmqModel.dll
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\bin\Debug\netcoreapp2.1\RmqModel.pdb
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\obj\Debug\netcoreapp2.1\RmqModel.UnitTest.csproj.CopyComplete
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\obj\Debug\netcoreapp2.1\RmqModel.UnitTest.dll
+D:\git\howieoak\RmqTutorial\RmqModel.UnitTest\obj\Debug\netcoreapp2.1\RmqModel.UnitTest.pdb

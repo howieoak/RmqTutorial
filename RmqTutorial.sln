@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Send", "Send\Send.csproj", "{2FD72E2D-9887-425B-AD9C-DFE705AEE51F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{2FD72E2D-9887-425B-AD9C-DFE705AEE51F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receive", "Receive\Receive.csproj", "{63FC2020-FA05-4277-85EC-EF6490B795B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "Receive\Receive.csproj", "{63FC2020-FA05-4277-85EC-EF6490B795B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmqModel", "RmqModel\RmqModel.csproj", "{F18B142C-5999-401F-B5E8-3D34F09EDE0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{601C70C3-2E41-4FB5-BBCF-EE744A7EA896}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RmqModel.UnitTest", "RmqModel.UnitTest\RmqModel.UnitTest.csproj", "{9F7EDF7E-7D2A-40E4-AEDA-9B6FF517E820}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,20 @@ Global
 		{63FC2020-FA05-4277-85EC-EF6490B795B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63FC2020-FA05-4277-85EC-EF6490B795B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63FC2020-FA05-4277-85EC-EF6490B795B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F18B142C-5999-401F-B5E8-3D34F09EDE0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F18B142C-5999-401F-B5E8-3D34F09EDE0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F18B142C-5999-401F-B5E8-3D34F09EDE0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F18B142C-5999-401F-B5E8-3D34F09EDE0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F7EDF7E-7D2A-40E4-AEDA-9B6FF517E820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F7EDF7E-7D2A-40E4-AEDA-9B6FF517E820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F7EDF7E-7D2A-40E4-AEDA-9B6FF517E820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F7EDF7E-7D2A-40E4-AEDA-9B6FF517E820}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9F7EDF7E-7D2A-40E4-AEDA-9B6FF517E820} = {601C70C3-2E41-4FB5-BBCF-EE744A7EA896}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C8931A5A-8423-4C34-9C19-2A9574BB12D1}

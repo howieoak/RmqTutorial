@@ -31,3 +31,6 @@ P:\Git\howieoak\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.AssemblyI
 P:\Git\howieoak\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.AssemblyInfo.cs
 P:\Git\howieoak\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.dll
 P:\Git\howieoak\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.pdb
+D:\git\howieoak\RmqTutorial\Send\bin\Debug\netcoreapp2.1\RmqModel.dll
+D:\git\howieoak\RmqTutorial\Send\bin\Debug\netcoreapp2.1\RmqModel.pdb
+D:\git\howieoak\RmqTutorial\Send\obj\Debug\netcoreapp2.1\Send.csproj.CopyComplete

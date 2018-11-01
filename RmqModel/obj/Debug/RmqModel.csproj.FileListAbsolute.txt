@@ -1,0 +1,9 @@
+D:\git\howieoak\RmqTutorial\RmqModel\bin\Debug\RmqModel.dll
+D:\git\howieoak\RmqTutorial\RmqModel\bin\Debug\RmqModel.pdb
+D:\git\howieoak\RmqTutorial\RmqModel\bin\Debug\Newtonsoft.Json.dll
+D:\git\howieoak\RmqTutorial\RmqModel\bin\Debug\Newtonsoft.Json.xml
+D:\git\howieoak\RmqTutorial\RmqModel\obj\Debug\RmqModel.csprojAssemblyReference.cache
+D:\git\howieoak\RmqTutorial\RmqModel\obj\Debug\RmqModel.csproj.CoreCompileInputs.cache
+D:\git\howieoak\RmqTutorial\RmqModel\obj\Debug\RmqModel.csproj.CopyComplete
+D:\git\howieoak\RmqTutorial\RmqModel\obj\Debug\RmqModel.dll
+D:\git\howieoak\RmqTutorial\RmqModel\obj\Debug\RmqModel.pdb
